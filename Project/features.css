@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/* main */ 
+
+main > div.f1 {
+    background-color: aqua;
+    display: table;
+    clear: both;
+}
+
+main > p {
+    background-color: red;
+}
+
+main > div.f2 {
+    float: right;
+    background-color: aqua;
+    clear: both;
+    display: table;
+}
+
+
+main.feature2 > p {
+    background-color: red;
+}
