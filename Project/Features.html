@@ -1,37 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="features.css"/>
-    <link rel="stylesheet" href="header-style.css"/>
-    <title>Features</title>
-</head>
-<body>
-    <header>
-        <div>
-        <img src="data:image/jpeg;base64,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" alt="">
-         </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="keyboards.html">Keyboards</a></li>
-                <li><a href="switch_model.html">Switch Models</a></li>
-                <li><a href="contact_us.html">About us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="f1">
-            <img src="https://i.pinimg.com/564x/c4/87/4a/c4874af5e3c3198490b38449c9f1ffc5.jpg" alt="">
-        </div> 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <div class="f2">
-            <img src="https://i.pinimg.com/564x/c4/87/4a/c4874af5e3c3198490b38449c9f1ffc5.jpg" alt="">
-        </div> 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    /<main>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="features.css" />
+        <link rel="stylesheet" href="header-style.css" />
+        <link rel="stylesheet" href="footer-style.css" />
+        <title>Features</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img
+                    src="data:image/jpeg;base64,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"alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="keyboards.html">Keyboards</a></li>
+                    <li><a href="switch_model.html">Switch Models</a></li>
+                    <li><a href="contact_us.html">About us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="section-container">
+                <div class="columns image"
+                    style="background-image:url('VIVID_VICE.jpg');">
+                    &nbsp;
+                </div>
+                <div class="columns content">
+                    <div class="content-container">
+                        <h5>Why do we use it?</h5>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. The point of using Lorem
+                            Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using
+                            'Content here, content here', making it look like
+                            readable English. Many desktop publishing packages
+                            and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum'
+                            will uncover many web sites still in their infancy.
+                            Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose
+                            (injected humour and the like).
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. The point of using Lorem
+                            Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using
+                            'Content here, content here', making it look like
+                            readable English. Many desktop publishing packages
+                            and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum'
+                            will uncover many web sites still in their infancy.
+                            Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose
+                            (injected humour and the like).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-container">
+                <div class="columns content">
+                    <div class="content-container">
+                        <h5>Why do we use it?</h5>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. The point of using Lorem
+                            Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using
+                            'Content here, content here', making it look like
+                            readable English. Many desktop publishing packages
+                            and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum'
+                            will uncover many web sites still in their infancy.
+                            Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose
+                            (injected humour and the like).
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be
+                            distracted by the readable content of a page when
+                            looking at its layout. The point of using Lorem
+                            Ipsum is that it has a more-or-less normal
+                            distribution of letters, as opposed to using
+                            'Content here, content here', making it look like
+                            readable English. Many desktop publishing packages
+                            and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum'
+                            will uncover many web sites still in their infancy.
+                            Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose
+                            (injected humour and the like).
+                        </p>
+                    </div>
+                </div>
+                <div class="columns image"
+                    style="background-image:url('VIVID_VICE.jpg')">
+                    &nbsp;
+                </div>
+            </div>
+            /<main>
+                <footer>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com" 
+                            target="_blank"> <img src="https://icon-library.com/images/instagram-social-media-icon/instagram-social-media-icon-18.jpg" 
+                            alt="instagram" width="50px" height="50px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" 
+                            target="_blank"> <img src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" 
+                            alt="facebook" width="50px" height="50px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" 
+                            target="_blank"> <img src="https://www.clipartmax.com/png/small/251-2517877_tweet-twitter-icon-icon-chirrup-icon-icon-twitter-png-format-twitter-logo.png" 
+                            alt="twitter" width="50px" height="50px">
+                            </a>
+                        </li>
+                    </ul>
+                </footer>
+            </body>
+        </html>
