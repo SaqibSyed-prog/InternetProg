@@ -8,16 +8,20 @@ footer > ul {
     color: black;
 }
 
-footer > ul > li {
-    display: inline-block;
+footer >  ul > li {
+    display: flex;
     list-style: none;
     padding: 10px;
 }
 
-footer > ul > li > a {
+footer >  ul > li > a {
     transition: all 0.45s ease-in-out 0s;
 }
 
 footer > ul > li > a:hover {
     opacity: 0.50;
+}
+
+footer > ul > li.licence {
+    text-align: center;
 }
