@@ -9,12 +9,13 @@ footer > ul {
 }
 
 footer >  ul > li {
-    display: flex;
+    clear: right;
     list-style: none;
     padding: 10px;
 }
 
 footer >  ul > li > a {
+    float: right;
     transition: all 0.45s ease-in-out 0s;
 }
 
