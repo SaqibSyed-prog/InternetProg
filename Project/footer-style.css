@@ -1,19 +1,18 @@
 /* footer */
-
-footer > ul {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    border-top: 2px solid black;
-    color: black;
+footer {
+    background-color: grey;
 }
 
-footer >  ul > li {
-    clear: right;
+footer > .social-media > img {
     list-style: none;
-    padding: 10px;
+    float: right;
+    background-color: aqua;
 }
 
+footer > .social-media > p {
+    float: left;
+    background-color: aqua;
+}
 footer >  ul > li > a {
     float: right;
     transition: all 0.45s ease-in-out 0s;

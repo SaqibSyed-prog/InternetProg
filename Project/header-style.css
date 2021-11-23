@@ -5,20 +5,26 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    
 }
 
 /* header */
+
+header {
+    background-color: rgb(61, 61, 61);
+}
 
 header > div {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    background-color: rgb(61, 61, 61);
 }
 
 header > nav{
     text-align: center;
     padding: 10px;
+    background-color: rgb(61, 61, 61);
+    border-bottom: 1px solid black;
 }
 
 a:link {
@@ -32,7 +38,6 @@ header > nav > ul > li {
     border-right: 2px solid black;
     color: black;
     font-size: 19px;
-    color
 }
 
 header > nav > ul > li > a {
@@ -41,4 +46,4 @@ header > nav > ul > li > a {
 
 header >nav > ul > li > a:hover {
     color: rgb(255, 174, 0);
-}
+} 
