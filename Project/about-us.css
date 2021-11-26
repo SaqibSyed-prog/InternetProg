@@ -1,49 +1,26 @@
-/*main > .container {
-    position: relative;
-    text-align: center;
-    opacity: 50%;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
 
-main > .text {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: large;
-    line-height: 30px;
-    border: 1px solid black;
-    padding: 100px;
-  }
-  */
-
-  main {
-      background-color: rgb(61, 61, 61);
-   }
-
-  .container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 40px;
-    opacity: 50%;
+  body {
+    background-image: url("white-gaming-keyboard.jpg");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
 
-  .text {
-    position: absolute;
-    top: 84%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 50px;
-    padding: 100px;
+.text {
+  padding: 250px;
+  
 }
+
+.text > p {
+  letter-spacing: 5px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 50px;
+  color: black;  
+  padding: 200px 250px 200px 250px;
+  border: 20px inset rgb(61, 61, 61);
+}
+
+
 
