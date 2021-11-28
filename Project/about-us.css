@@ -20,6 +20,7 @@
   color: black;  
   padding: 200px 250px 200px 250px;
   border: 20px inset rgb(61, 61, 61);
+  border-right-color: rgb(255, 255, 255);
 }
 
 

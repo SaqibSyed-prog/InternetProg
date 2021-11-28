@@ -4,6 +4,8 @@
 /* main */
 main {
     background-color: rgb(66, 66, 66);
+    margin: 10%;
+    border: 5px solid black;
 } 
 
 main > p {
@@ -17,6 +19,17 @@ main > ul > li {
     float: left;
     width: 30%;
     padding-left: 30px;
+}
+
+main > div.sub-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+main > div.sub-image > ul > li {
+    display: inline-block;
+    list-style: none;
 }
 
 .slider {
