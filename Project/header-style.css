@@ -14,6 +14,7 @@
 /* header */
 
 header {
+    overflow: hidden;
     background-color: rgb(61, 61, 61);
 }
 
@@ -42,21 +43,26 @@ a:visited {
 }
 
 header > #nav > ul > li {
-    display: inline-block;
-    padding: 0px 5px 0px 5px;
-    border-right: 2px solid black;
+    display: inline-block;   
     color: black;
-    font-size: 19px;
 }
 
 header > #nav > ul {
+    
     background-color: rgb(77, 77, 77);
     padding: 10px;
 }
 
-
 header > #nav > ul > li > a {
+    
     transition: all 0.45s ease-in-out 0s;
+    font-size: 24px;
+    padding: 0px 5px 0px 5px;
+    border-right: 2px solid black;
+}
+
+header > #nav > ul > li:first-child {
+    border-left: 2px solid black;
 }
 
 header > #nav > ul > li > a:hover {

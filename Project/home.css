@@ -2,28 +2,71 @@
 
 
 /* main */
-
-main > div.main-image{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-main > div.sub-image{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-
-main > div.sub-image > ul > li {
-    display: inline-block;
-    list-style: none;
-}
+main {
+    background-color: rgb(66, 66, 66);
+} 
 
 main > p {
     text-align: center;
-    padding: 15px;
+    padding-bottom: 25px;
     font-size: 22px;
 }
 
+main > ul > li {
+    display: block;
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.slider {
+    padding: 19%;
+    width: 75%;
+    height: auto;
+    background: url(VIVID_VICE.jpg),
+        url(KSUKE-Contradiction.jpg),
+        url(sixthlie.jpg),
+        url(koe.jpg);
+    margin: auto;
+    animation: slide 30s cubic-bezier(.24,.57,.11,1.6) infinite;
+    animation-delay: 3s;
+    background-size: 1800px 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 66, 66);
+}
+
+@keyframes slide {
+    25%{
+        background: url(KSUKE-Contradiction.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 1800px 720px;
+        background-position: center;
+    }
+    
+    50%{
+        background: url(sixthlie.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 1800px 720px;
+        background-position: center;
+    }
+    
+    75%{
+        background: url(koe.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 1800px 720px;
+        background-position: center;
+    }
+    
+    100%{
+        background: url(VIVID_VICE.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 1800px 720px;
+        background-position: center;
+    }
+}
 
